@@ -10,11 +10,38 @@ body {
   width: 100%;
 }
 
+#welcome {
+  display: flex;
+}
 #welcome .imgbox {
   background-position: center center;
 }
 #welcome .box {
   position: absolute;
+  transform: translate(320px, 280px);
+  width: 900px;
+  text-align: center;
+}
+#welcome .box h1 {
+  color: white;
+  font-size: 55px;
+  padding-bottom: 35px;
+}
+#welcome .box h2 {
+  color: white;
+  font-size: 85px;
+  padding-bottom: 35px;
+}
+#welcome .box .btn {
+  width: 200px;
+  height: 60px;
+  background-color: #e2bb0f;
+  padding: 13px 0 0 5px;
+}
+#welcome .box .btn h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 #services {
@@ -26,6 +53,7 @@ header {
   background-color: #212529;
   padding: 20px 0;
   width: 1540px;
+  z-index: 2;
 }
 header .imgbox {
   width: 150px;
