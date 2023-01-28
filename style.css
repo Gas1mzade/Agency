@@ -11,14 +11,15 @@ body {
 }
 
 #welcome {
-  display: flex;
-}
-#welcome .imgbox {
-  background-position: center center;
+  background-image: url("A.Assets/header-bg.jpg");
+  background-color: #cccccc;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #welcome .box {
   position: absolute;
-  transform: translate(320px, 280px);
+  transform: translate(220px, 270px);
   width: 900px;
   text-align: center;
 }
@@ -29,23 +30,90 @@ body {
 }
 #welcome .box h2 {
   color: white;
-  font-size: 85px;
+  font-size: 95px;
   padding-bottom: 35px;
 }
 #welcome .box .btn {
   width: 200px;
   height: 60px;
-  background-color: #e2bb0f;
+  background-color: #fdd834;
   padding: 13px 0 0 5px;
+}
+#welcome .box .btn:hover {
+  background-color: #edc200;
 }
 #welcome .box .btn h3 {
   color: white;
   font-size: 20px;
   font-weight: 700;
+  cursor: default;
+}
+#welcome .box .btn h3:hover {
+  cursor: pointer;
 }
 
 #services {
-  padding: 80px 0;
+  padding: 150px 0;
+}
+#services h1 {
+  font-size: 50px;
+  padding-bottom: 20px;
+  font-weight: 700;
+}
+#services h3 {
+  font-size: 20px;
+  color: #555454;
+  padding-bottom: 90px;
+}
+#services .box {
+  text-align: center;
+}
+#services .box .icon {
+  background-color: #fabb01;
+  width: 130px;
+  height: 130px;
+  border-radius: 100px;
+  padding: 35px 20px;
+  margin: 0 0 15px 140px;
+}
+#services .box .icon i {
+  font-size: 65px;
+  color: white;
+}
+#services .box .textbox {
+  width: 415px;
+  margin-left: 4px;
+  padding-bottom: 100px;
+}
+#services .box .textbox h2 {
+  font-size: 25px;
+  padding-bottom: 20px;
+  font-weight: 700;
+}
+#services .box .textbox p {
+  font-size: 20px;
+  color: #555454;
+  line-height: 1;
+}
+
+#portfolio h1 {
+  font-weight: 700;
+  font-size: 60px;
+}
+#portfolio h4 {
+  font-size: 20px;
+  color: #545252;
+  margin: 20px 0 50px;
+}
+#portfolio .textbox h2 {
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 10px;
+}
+#portfolio .textbox h3 {
+  color: #545252;
+  margin: 10px 0 50px;
+  font-size: 20px;
 }
 
 header {
@@ -63,4 +131,9 @@ header nav a {
   color: white;
   font-size: 20px;
   margin-right: 40px;
+  cursor: default;
+}
+header nav a:hover {
+  cursor: pointer;
+  color: #edc01c;
 }/*# sourceMappingURL=style.css.map */

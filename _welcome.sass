@@ -1,10 +1,12 @@
 #welcome
-    display: flex
-    .imgbox
-        background-position: center center
+    background-image: url("A.Assets/header-bg.jpg")
+    background-color: #cccccc
+    height: 900px
+    background-repeat: no-repeat
+    background-size: cover
     .box
         position: absolute
-        transform: translate(320px , 280px)
+        transform: translate(220px , 270px)
         width: 900px
         text-align: center
         h1
@@ -13,14 +15,19 @@
             padding-bottom: 35px
         h2
             color: #ffff
-            font-size: 85px
+            font-size: 95px
             padding-bottom: 35px
         .btn
             width: 200px
             height: 60px
-            background-color: #e2bb0f
+            background-color: #fdd834
             padding: 13px 0 0 5px
+            &:hover
+                background-color: #edc200
             h3
                 color: #ffff
                 font-size: 20px
                 font-weight: 700
+                cursor: default
+                &:hover
+                    cursor: pointer
