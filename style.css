@@ -6,9 +6,6 @@ body {
 .imgbox {
   overflow: hidden;
 }
-.imgbox img {
-  width: 100%;
-}
 
 #welcome {
   background-image: url("A.Assets/header-bg.jpg");
@@ -114,6 +111,28 @@ body {
   color: #545252;
   margin: 10px 0 50px;
   font-size: 20px;
+}
+
+#about {
+  padding: 100px 0;
+}
+#about .textbox h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+#about .textbox h3 {
+  color: #9e9e9e;
+  font-size: 20px;
+  padding: 20px 0 35px;
+}
+#about .textbox .box .textbox h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+#about .textbox .box .imgbox {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
 }
 
 header {
