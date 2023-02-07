@@ -93,6 +93,9 @@ body {
   line-height: 1;
 }
 
+#portfolio img {
+  width: 100%;
+}
 #portfolio h1 {
   font-weight: 700;
   font-size: 60px;
@@ -105,12 +108,17 @@ body {
 #portfolio .textbox h2 {
   font-weight: 700;
   font-size: 30px;
-  margin-top: 10px;
+  margin-top: -100px;
 }
 #portfolio .textbox h3 {
   color: #545252;
   margin: 10px 0 50px;
   font-size: 20px;
+}
+#portfolio .imgbox {
+  width: 450px;
+  height: 450px;
+  padding-right: 30px;
 }
 
 #about {
@@ -125,14 +133,30 @@ body {
   font-size: 20px;
   padding: 20px 0 35px;
 }
-#about .textbox .box .textbox h2 {
-  font-size: 45px;
+#about .box {
+  display: flex;
+  padding-bottom: 50px;
+}
+#about .box .textbox {
+  width: 550px;
+}
+#about .box .textbox h2 {
+  font-size: 30px;
   font-weight: 700;
 }
-#about .textbox .box .imgbox {
+#about .box .textbox p {
+  font-size: 19px;
+  line-height: 0.9;
+}
+#about .box .imgbox {
+  padding: 0 400px 0 20px;
   width: 150px;
   height: 150px;
   border-radius: 100px;
+}
+
+#logo {
+  padding: 50px;
 }
 
 header {
