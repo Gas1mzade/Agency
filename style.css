@@ -161,6 +161,19 @@ body {
 #about .box .diff {
   margin: 0 30px 0 20px;
 }
+#about .yel {
+  width: 150px;
+  height: 150px;
+  background-color: #dde811;
+  border-radius: 100px;
+  padding: 46px;
+  margin-left: 560px;
+}
+#about .yel h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
 
 #logo {
   padding: 50px;
