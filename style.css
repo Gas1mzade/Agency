@@ -255,6 +255,17 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+#contactus .textbox {
+  transform: translate(100px, 100px);
+}
+#contactus .textbox h1 {
+  font-size: 50px;
+  color: white;
+}
+#contactus .textbox h4 {
+  color: #6c757d;
+  font-size: 25px;
+}
 
 header {
   position: fixed;
