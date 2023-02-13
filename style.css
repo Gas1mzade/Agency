@@ -257,6 +257,7 @@ body {
 }
 #contactus .textbox {
   transform: translate(100px, 100px);
+  position: absolute;
 }
 #contactus .textbox h1 {
   font-size: 50px;
@@ -266,7 +267,6 @@ body {
   color: #6c757d;
   font-size: 25px;
 }
-
 header {
   position: fixed;
   background-color: #212529;
