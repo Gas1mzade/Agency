@@ -232,7 +232,7 @@ body {
 }
 
 #logo {
-  padding: 100px 0;
+  padding: 100px 0 0;
 }
 #logo a img {
   width: 170px;
@@ -249,14 +249,18 @@ body {
 
 #contactus {
   margin: 70px 0;
-  background-image: url("A.Assets/map-image.jpg");
+  background-image: url("A.Assets/map-image.png");
+  position: relative;
   background-color: #212529;
-  height: 650px;
+  height: 690px;
   background-repeat: no-repeat;
   background-position: center;
 }
 #contactus .textbox {
-  transform: translate(100px, 100px);
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0 0 490px;
+  text-align: center;
   position: absolute;
 }
 #contactus .textbox h1 {
@@ -264,9 +268,34 @@ body {
   color: white;
 }
 #contactus .textbox h4 {
-  color: #6c757d;
-  font-size: 25px;
+  color: #8f9193;
+  font-size: 20px;
 }
+#contactus .box {
+  position: absolute;
+  padding-top: 190px;
+}
+#contactus .box input {
+  display: flex;
+  align-items: center;
+  width: 630px;
+  height: 65px;
+  margin-bottom: 30px;
+}
+#contactus .box2 {
+  position: absolute;
+  padding-top: 190px;
+}
+#contactus .box2 textarea {
+  max-height: 260px;
+  border-radius: 5px;
+}
+#contactus .btn {
+  width: 150px;
+  height: 80px;
+  background-color: #fdd834;
+}
+
 header {
   position: fixed;
   background-color: #212529;
