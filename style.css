@@ -219,7 +219,7 @@ body {
   color: white;
   border-radius: 100px;
   margin: 0 10px;
-  cursor: point;
+  cursor: pointer;
 }
 #ourteam .box3 {
   width: 885px;
@@ -248,20 +248,16 @@ body {
 }
 
 #contactus {
-  margin: 70px 0;
+  margin: 70px 0 0;
   background-image: url("A.Assets/map-image.png");
-  position: relative;
   background-color: #212529;
   height: 690px;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 #contactus .textbox {
   display: flex;
   flex-direction: column;
-  margin: 50px 0 0 490px;
+  margin: 50px 0 0;
   text-align: center;
-  position: absolute;
 }
 #contactus .textbox h1 {
   font-size: 50px;
@@ -272,8 +268,7 @@ body {
   font-size: 20px;
 }
 #contactus .box {
-  position: absolute;
-  padding-top: 190px;
+  padding-top: 80px;
 }
 #contactus .box input {
   display: flex;
@@ -283,17 +278,22 @@ body {
   margin-bottom: 30px;
 }
 #contactus .box2 {
-  position: absolute;
-  padding-top: 190px;
+  padding-top: 78px;
 }
 #contactus .box2 textarea {
   max-height: 260px;
   border-radius: 5px;
+  cursor: initial;
 }
 #contactus .btn {
-  width: 150px;
-  height: 80px;
-  background-color: #fdd834;
+  width: 271px;
+  height: 70px;
+  background-color: #ffc800;
+}
+#contactus .btn h3 {
+  font-size: 25px;
+  color: white;
+  padding-top: 10px;
 }
 
 header {
@@ -316,4 +316,28 @@ header nav a {
 header nav a:hover {
   cursor: pointer;
   color: #edc01c;
+}
+
+footer {
+  padding: 30px 0 10px;
+}
+footer .box {
+  margin: 0 140px;
+}
+footer .box .minibox h1, footer .box .minibox h2, footer .box .minibox h3 {
+  font-size: 19px;
+}
+footer .box .minibox h2 {
+  padding-right: 15px;
+}
+footer .box .minibox .icon i {
+  padding: 13px;
+  font-size: 15px;
+  width: 38px;
+  height: 38px;
+  background-color: #212529;
+  color: white;
+  border-radius: 100px;
+  margin: 0 10px;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
