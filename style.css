@@ -30,6 +30,9 @@ body {
   font-size: 95px;
   padding-bottom: 35px;
 }
+#welcome .box h1, #welcome .box h2 {
+  cursor: initial;
+}
 #welcome .box .btn {
   width: 200px;
   height: 60px;
@@ -95,6 +98,11 @@ body {
 
 #portfolio img {
   width: 100%;
+  background-color: #edc200;
+  position: relative;
+}
+#portfolio img:hover {
+  position: absolute;
 }
 #portfolio h1 {
   font-weight: 700;
@@ -119,6 +127,7 @@ body {
   width: 450px;
   height: 450px;
   padding-right: 30px;
+  position: relative;
 }
 
 #about {
