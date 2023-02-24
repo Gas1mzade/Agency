@@ -99,10 +99,6 @@ body {
 #portfolio img {
   width: 100%;
   background-color: #edc200;
-  position: relative;
-}
-#portfolio img:hover {
-  position: absolute;
 }
 #portfolio h1 {
   font-weight: 700;
@@ -200,12 +196,13 @@ body {
   padding: 30px 0;
 }
 #ourteam .imgbox {
-  width: 250px;
-  height: 250px;
+  width: 210px;
+  height: 210px;
   border-radius: 130px;
+  border: 7px solid #dedddd;
 }
 #ourteam .box1 {
-  padding-left: 60px;
+  padding-left: 109px;
 }
 #ourteam .box1 .minibox {
   padding: 10px 100px 10px 0;
