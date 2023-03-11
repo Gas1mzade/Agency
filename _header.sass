@@ -8,6 +8,7 @@ header
         width: 150px
         margin-left: 50px
     nav
+        display: flex
         a
             color: #ffff
             font-size: 20px
@@ -16,3 +17,28 @@ header
             &:hover
                 cursor: pointer
                 color: #edc01c
+        .icon
+            display: none
+            border: 2px solid #ffffff1a
+            padding: 15px
+            border-radius: 5px
+            h1
+                font-size: 25px
+                color: #ffffff8c
+                padding-right: 10px
+            i
+                font-size: 20px
+                align-items: center 
+                padding-top: 2px
+                color: #ffffff8c
+
+    @media screen and ( max-width: 768px )
+        padding: 38px 0
+        .imgbox
+            width: 230px
+        nav
+            a
+                display: none
+            .icon
+                display: flex
+                margin-right: 50px

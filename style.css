@@ -13,6 +13,7 @@ body {
   height: 750px;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 100px;
 }
 #welcome .box {
   text-align: center;
@@ -52,7 +53,6 @@ body {
     width: 1225px;
   }
 }
-
 #services {
   padding: 150px 0;
 }
@@ -319,6 +319,9 @@ header .imgbox {
   width: 150px;
   margin-left: 50px;
 }
+header nav {
+  display: flex;
+}
 header nav a {
   color: white;
   font-size: 20px;
@@ -328,6 +331,38 @@ header nav a {
 header nav a:hover {
   cursor: pointer;
   color: #edc01c;
+}
+header nav .icon {
+  display: none;
+  border: 2px solid rgba(255, 255, 255, 0.1019607843);
+  padding: 15px;
+  border-radius: 5px;
+}
+header nav .icon h1 {
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.5490196078);
+  padding-right: 10px;
+}
+header nav .icon i {
+  font-size: 20px;
+  align-items: center;
+  padding-top: 2px;
+  color: rgba(255, 255, 255, 0.5490196078);
+}
+@media screen and (max-width: 768px) {
+  header {
+    padding: 38px 0;
+  }
+  header .imgbox {
+    width: 230px;
+  }
+  header nav a {
+    display: none;
+  }
+  header nav .icon {
+    display: flex;
+    margin-right: 50px;
+  }
 }
 
 footer {
