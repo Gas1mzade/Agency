@@ -47,6 +47,11 @@ body {
 #welcome .box .btn h3:hover {
   cursor: pointer;
 }
+@media screen and (max-width: 1277px) {
+  #welcome {
+    width: 1225px;
+  }
+}
 
 #services {
   padding: 150px 0;
@@ -90,6 +95,11 @@ body {
   font-size: 20px;
   color: #555454;
   line-height: 1;
+}
+@media screen and (max-width: 1277px) {
+  #services {
+    width: 1225px;
+  }
 }
 
 #portfolio img {
