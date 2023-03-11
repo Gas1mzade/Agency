@@ -302,7 +302,7 @@ header {
   position: fixed;
   background-color: #212529;
   padding: 20px 0;
-  width: 1540px;
+  width: 100%;
   z-index: 2;
 }
 header .imgbox {
