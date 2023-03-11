@@ -4,7 +4,7 @@
     height: 750px
     background-repeat: no-repeat
     background-size: cover
-    padding-top: 100px
+    background-position: center
     .box
         text-align: center
         margin-top: 245px
@@ -20,11 +20,11 @@
             cursor: initial
         .btn
             padding: 15px 40px
-            background-color: #fdd834
+            background-color: #ffc800
             &:hover
                 background-color: #edc200
             h3
-                color: #ffff
+                color: #fff
                 font-size: 20px
                 font-weight: 700
                 cursor: default
@@ -34,4 +34,32 @@
         width: 1225px
 
     @media screen and ( max-width: 768px )
-
+        background-image: url("A.Assets/header-bg.jpg")
+        height: 180vh
+        .box
+            margin-top: 330px
+            h1
+                font-size: 75px
+                padding-bottom: 40px
+            h2
+                font-size: 140px
+                padding-bottom: 110px
+            .btn
+                padding: 25px 85px
+                h3
+                    font-size: 30px
+    @media screen and ( max-width: 320px  )
+        background-image: url("A.Assets/header-bg.jpg")
+        height: 300vh
+        .box
+            margin-top: 330px
+            h1
+                font-size: 75px
+                padding-bottom: 40px
+            h2
+                font-size: 140px
+                padding-bottom: 110px
+            .btn
+                padding: 25px 85px
+                h3
+                    font-size: 30px

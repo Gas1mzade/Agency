@@ -13,7 +13,7 @@ body {
   height: 750px;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 100px;
+  background-position: center;
 }
 #welcome .box {
   text-align: center;
@@ -34,13 +34,13 @@ body {
 }
 #welcome .box .btn {
   padding: 15px 40px;
-  background-color: #fdd834;
+  background-color: #ffc800;
 }
 #welcome .box .btn:hover {
   background-color: #edc200;
 }
 #welcome .box .btn h3 {
-  color: white;
+  color: #fff;
   font-size: 20px;
   font-weight: 700;
   cursor: default;
@@ -53,6 +53,53 @@ body {
     width: 1225px;
   }
 }
+@media screen and (max-width: 768px) {
+  #welcome {
+    background-image: url("A.Assets/header-bg.jpg");
+    height: 180vh;
+  }
+  #welcome .box {
+    margin-top: 330px;
+  }
+  #welcome .box h1 {
+    font-size: 75px;
+    padding-bottom: 40px;
+  }
+  #welcome .box h2 {
+    font-size: 140px;
+    padding-bottom: 110px;
+  }
+  #welcome .box .btn {
+    padding: 25px 85px;
+  }
+  #welcome .box .btn h3 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 320px) {
+  #welcome {
+    background-image: url("A.Assets/header-bg.jpg");
+    height: 300vh;
+  }
+  #welcome .box {
+    margin-top: 330px;
+  }
+  #welcome .box h1 {
+    font-size: 75px;
+    padding-bottom: 40px;
+  }
+  #welcome .box h2 {
+    font-size: 140px;
+    padding-bottom: 110px;
+  }
+  #welcome .box .btn {
+    padding: 25px 85px;
+  }
+  #welcome .box .btn h3 {
+    font-size: 30px;
+  }
+}
+
 #services {
   padding: 150px 0;
 }
@@ -311,7 +358,7 @@ body {
 header {
   position: fixed;
   background-color: #212529;
-  padding: 20px 0;
+  padding: 15px 0;
   width: 100%;
   z-index: 2;
 }
@@ -362,6 +409,36 @@ header nav .icon i {
   header nav .icon {
     display: flex;
     margin-right: 50px;
+  }
+}
+@media screen and (max-width: 320px) {
+  header {
+    padding: 66px 0;
+  }
+  header .imgbox {
+    width: 560px;
+  }
+  header nav a {
+    display: none;
+  }
+  header nav .icon {
+    display: flex;
+    margin-right: 85px;
+    border: 4px solid rgba(255, 255, 255, 0.1019607843);
+    padding: 35px;
+    border-radius: 5px;
+  }
+  header nav .icon h1 {
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.5490196078);
+    padding-right: 20px;
+    font-weight: 700;
+  }
+  header nav .icon i {
+    font-size: 55px;
+    align-items: center;
+    padding-top: 2px;
+    color: rgba(255, 255, 255, 0.5490196078);
   }
 }
 
