@@ -131,7 +131,6 @@ body {
 }
 #services .box .textbox {
   width: 415px;
-  margin-left: 4px;
   padding-bottom: 100px;
 }
 #services .box .textbox h2 {
@@ -159,28 +158,63 @@ body {
   #services h3 {
     font-size: 23px;
   }
+  #services .box {
+    max-width: 320px;
+  }
   #services .box .icon {
-    width: 160px;
-    height: 160px;
+    width: 150px;
+    height: 150px;
     padding: 47px 20px;
-    margin: 0 0 15px 100px;
+    margin: 0 0 15px 65px;
   }
   #services .box .icon i {
     font-size: 65px;
     color: white;
   }
   #services .box .df {
-    margin: 0 100px 15px 107px;
+    margin: 0 100px 15px 65px;
   }
   #services .box .textbox {
-    width: 380px;
-    margin-right: 50px;
+    width: 275px;
   }
   #services .box .textbox h2 {
     font-size: 25px;
   }
   #services .box .textbox p {
-    font-size: 25px;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+}
+@media screen and (max-width: 768px) {
+  #services {
+    padding: 120px 0 150px;
+    height: 170vh;
+    max-width: 1225px;
+  }
+  #services h1 {
+    font-size: 65px;
+  }
+  #services h3 {
+    font-size: 30px;
+  }
+  #services .box .icon {
+    width: 190px;
+    height: 190px;
+    padding: 63px 20px;
+    margin: 0 0 15px 65px;
+  }
+  #services .box .icon i {
+    font-size: 75px;
+    color: white;
+  }
+  #services .box .df {
+    margin: 0 100px 15px 65px;
+  }
+  #services .box .textbox h2 {
+    font-size: 35px;
+  }
+  #services .box .textbox p {
+    font-size: 30px;
     line-height: 1.2;
   }
 }
