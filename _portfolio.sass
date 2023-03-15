@@ -1,7 +1,6 @@
 #portfolio
     img
         width: 100%
-        background-color: #edc200
     h1
         font-weight: 700
         font-size: 60px
@@ -22,4 +21,33 @@
         width: 450px
         height: 450px
         padding-right: 30px
-        position: relative
+    @media screen and ( max-width: 1024px )
+        width: 1225px
+        h1
+            font-size: 63px
+        h4
+            font-size: 23px
+        .textbox
+            h2
+                font-size: 33px
+            h3
+                font-size: 23px
+        .imgbox
+            width: 350px
+            height: 350px
+            padding-right: 42px
+    @media screen and ( max-width: 320px )
+        h1
+            font-size: 65px
+        h4
+            font-size: 23px
+        .textbox
+            h2
+                font-size: 100px
+                margin-top: 45px
+            h3
+                font-size: 70px
+        .imgbox
+            width: 100%
+            height: 70%
+            display: flex
