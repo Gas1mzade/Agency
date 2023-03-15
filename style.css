@@ -310,10 +310,11 @@ body {
 }
 @media screen and (max-width: 320px) {
   #portfolio h1 {
-    font-size: 65px;
+    font-size: 210px;
   }
   #portfolio h4 {
-    font-size: 23px;
+    font-size: 80px;
+    margin: 75px 0 170px;
   }
   #portfolio .textbox h2 {
     font-size: 100px;
@@ -381,6 +382,91 @@ body {
   font-size: 20px;
   font-weight: 600;
   color: white;
+}
+@media screen and (max-width: 1024px) {
+  #about {
+    width: 1225px;
+  }
+  #about .textbox h1 {
+    font-size: 60px;
+  }
+  #about .textbox h3 {
+    font-size: 25px;
+  }
+  #about .box .textbox {
+    width: 360px;
+  }
+  #about .box .textbox h2 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+  #about .box .textbox p {
+    font-size: 23px;
+    line-height: 1.3;
+  }
+  #about .yel {
+    width: 180px;
+    height: 180px;
+    background-color: #ffc800;
+    border-radius: 100%;
+    padding: 46px;
+    margin-left: 370px;
+  }
+  #about .yel h4 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+}
+@media screen and (max-width: 320px) {
+  #about {
+    width: 1230px;
+  }
+  #about .textbox h1 {
+    font-size: 180px;
+  }
+  #about .textbox h3 {
+    font-size: 75px;
+    width: 1150px;
+  }
+  #about .box {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 120px;
+    justify-content: center;
+  }
+  #about .box .textbox {
+    width: 635px;
+    padding: 20px 20px 20px 28px;
+  }
+  #about .box .textbox h2 {
+    font-size: 80px;
+    text-align: start;
+  }
+  #about .box .textbox p {
+    font-size: 70px;
+    text-align: start;
+  }
+  #about .box .imgbox {
+    width: 270px;
+    height: 270px;
+    border-radius: 100%;
+    margin: 0 0 0 20px;
+  }
+  #about .box .diff {
+    margin: 0 30px 0 0;
+  }
+  #about .yel {
+    width: 270px;
+    height: 270px;
+    background-color: #ffc800;
+    border-radius: 100%;
+    padding: 46px;
+    margin-left: 140px;
+  }
+  #about .yel h4 {
+    font-size: 55px;
+    font-weight: 700;
+  }
 }
 
 #ourteam {
