@@ -366,6 +366,7 @@ body {
   width: 150px;
   height: 150px;
   border-radius: 100px;
+  border: 8px solid #f1f1f1;
 }
 #about .box .diff {
   margin: 0 30px 0 20px;
@@ -373,13 +374,14 @@ body {
 #about .yel {
   width: 150px;
   height: 150px;
-  background-color: #dde811;
+  background-color: #ffc800;
   border-radius: 100px;
-  padding: 46px;
+  padding: 27px;
   margin-left: 560px;
+  border: 8px solid #ffe8e8;
 }
 #about .yel h4 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
   color: white;
 }
