@@ -565,6 +565,11 @@ body {
   font-size: 20px;
   padding: 42px 0;
 }
+@media screen and (max-width: 1024px) {
+  #ourteam {
+    width: 1225px;
+  }
+}
 
 #logo {
   padding: 100px 0 0;
