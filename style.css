@@ -57,6 +57,7 @@ body {
   #welcome {
     background-image: url("A.Assets/header-bg.jpg");
     height: 180vh;
+    width: 1327px;
   }
   #welcome .box {
     margin-top: 330px;
@@ -190,7 +191,7 @@ body {
   #services {
     padding: 120px 0 150px;
     height: 170vh;
-    max-width: 1225px;
+    width: 1327px;
   }
   #services h1 {
     font-size: 65px;
@@ -312,6 +313,11 @@ body {
     padding-right: 2px;
   }
 }
+@media screen and (max-width: 768px) {
+  #portfolio {
+    width: 1327px;
+  }
+}
 @media screen and (max-width: 320px) {
   #portfolio h1 {
     font-size: 210px;
@@ -426,6 +432,7 @@ body {
 @media screen and (max-width: 768px) {
   #about {
     height: 380vh;
+    width: 1327px;
   }
   #about .box {
     transform: translate(-134px, 100px);
@@ -617,6 +624,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   #ourteam {
+    width: 1327px;
     height: 380vh;
   }
   #ourteam .box h1 {
@@ -679,6 +687,11 @@ body {
   width: 200px;
   height: 100px;
 }
+@media screen and (max-width: 768px) {
+  #logo {
+    width: 1327px;
+  }
+}
 
 #contactus {
   margin: 70px 0 0;
@@ -727,6 +740,11 @@ body {
   font-size: 25px;
   color: white;
   padding-top: 10px;
+}
+@media screen and (max-width: 768px) {
+  #contactus {
+    width: 1327px;
+  }
 }
 
 header {
@@ -793,7 +811,7 @@ header nav .icon i {
   }
   header nav .icon {
     display: flex;
-    margin-right: 50px;
+    margin-right: 100px;
   }
 }
 @media screen and (max-width: 320px) {
@@ -849,4 +867,9 @@ footer .box .minibox .icon i {
   border-radius: 100px;
   margin: 0 10px;
   cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  footer {
+    width: 1327px;
+  }
 }/*# sourceMappingURL=style.css.map */
