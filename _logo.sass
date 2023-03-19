@@ -1,19 +1,31 @@
 #logo
-    padding: 100px 0 0
-    a
-        img
-            width: 170px
-            height: 100px
-    .minibox
-        img
-            width: 130px
-            height: 100px   
-    .minibox1
-        img
-            width: 200px 
-            height: 100px
+    padding: 100px 0 50px
+    .imgbox
+        width: 170px
+    .imgbox2
+        width: 150px
+    .imgbox3
+        width: 120px
 
-    
+    @media screen and ( max-width: 1024px )
+        width: 1225px
+
     @media screen and ( max-width: 768px )
         width: 1380px
-            
+        .imgbox
+            width: 250px
+        .imgbox2
+            width: 250px
+        .imgbox3
+            width: 250px
+    @media screen and ( max-width: 320px )
+        height: 300vh
+        display: flex
+        align-items: center
+        .imgbox
+            width: 750px
+            margin: 90px
+        .imgbox2
+            width: 500px
+        .imgbox3
+            width: 550px

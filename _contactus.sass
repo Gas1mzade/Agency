@@ -1,8 +1,11 @@
 #contactus
-    margin: 70px 0 0
+    padding: 35px 0 0
     background-image: url("A.Assets/map-image.png")
     background-color: #212529
     height: 690px
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
     .textbox
         display: flex
         flex-direction: column
@@ -27,15 +30,59 @@
         textarea
             max-height: 260px
             border-radius: 5px
-            cursor: initial 
+            cursor: initial
     .btn
         width: 271px
         height: 70px
         background-color: #ffc800
-        h3  
+        h3
             font-size: 25px
             color: #ffff
             padding-top: 10px
-    
+    @media screen and ( max-width: 1024px )
+        width: 1225px
+        .textbox
+            h1
+                font-size: 57px
+            h4
+                font-size: 25px
+        .box
+            padding-top: 60px
+            input
+                width: 465px
+                height: 70px
+        .box2
+            padding-top: 58px
+            textarea
+                max-height: 270px
+        .btn
+            h3
+                font-size: 25px
+                font-weight: 700
     @media screen and ( max-width: 768px )
         width: 1380px
+        height: 180vh
+        .textbox
+            h1
+                font-size: 85px
+                margin: 90px 0 25px
+            h4
+                font-size: 35px
+        .box
+            padding-top: 60px
+            transform: translate(-290px, -1px)
+            input
+                width: 635px
+                height: 140px
+        .box2
+            padding-top: 58px
+            textarea
+                max-height: 480px
+        .btn
+            width: 300px
+            height: 95px
+            h3
+                font-size: 30px
+                padding-top: 15px
+    @media screen and ( max-width: 320px )
+            height: 200vh
