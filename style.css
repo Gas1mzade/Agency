@@ -57,7 +57,7 @@ body {
   #welcome {
     background-image: url("A.Assets/header-bg.jpg");
     height: 180vh;
-    width: 1327px;
+    width: 1380px;
   }
   #welcome .box {
     margin-top: 330px;
@@ -191,7 +191,7 @@ body {
   #services {
     padding: 120px 0 150px;
     height: 170vh;
-    width: 1327px;
+    width: 1380px;
   }
   #services h1 {
     font-size: 65px;
@@ -315,7 +315,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   #portfolio {
-    width: 1327px;
+    width: 1380px;
   }
 }
 @media screen and (max-width: 320px) {
@@ -432,7 +432,7 @@ body {
 @media screen and (max-width: 768px) {
   #about {
     height: 380vh;
-    width: 1327px;
+    width: 1380px;
   }
   #about .box {
     transform: translate(-134px, 100px);
@@ -624,7 +624,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   #ourteam {
-    width: 1327px;
+    width: 1380px;
     height: 380vh;
   }
   #ourteam .box h1 {
@@ -663,7 +663,7 @@ body {
   }
   #ourteam .box3 {
     width: 1100px;
-    margin-left: -40px;
+    margin-left: -150px;
   }
   #ourteam .box3 p {
     font-size: 35px;
@@ -689,7 +689,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   #logo {
-    width: 1327px;
+    width: 1380px;
   }
 }
 
@@ -743,7 +743,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   #contactus {
-    width: 1327px;
+    width: 1380px;
   }
 }
 
@@ -870,6 +870,6 @@ footer .box .minibox .icon i {
 }
 @media screen and (max-width: 768px) {
   footer {
-    width: 1327px;
+    width: 1380px;
   }
 }/*# sourceMappingURL=style.css.map */
