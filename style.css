@@ -884,7 +884,41 @@ body {
 }
 @media screen and (max-width: 320px) {
   #contactus {
-    height: 200vh;
+    height: 500vh;
+  }
+  #contactus .textbox {
+    padding-top: 150px;
+  }
+  #contactus .textbox h1 {
+    font-size: 200px;
+    margin: 90px 0 25px;
+  }
+  #contactus .textbox h4 {
+    font-size: 95px;
+  }
+  #contactus .box {
+    padding-top: 150px;
+    transform: translate(35px, -1px);
+  }
+  #contactus .box input {
+    width: 1190px;
+    height: 250px;
+  }
+  #contactus .box2 {
+    transform: translate(35px, -1px);
+    padding-top: 58px;
+  }
+  #contactus .box2 textarea {
+    max-height: 480px;
+  }
+  #contactus .btn {
+    transform: translate(0px, 150px);
+    width: 900px;
+    height: 225px;
+  }
+  #contactus .btn h3 {
+    font-size: 80px;
+    padding-top: 20px;
   }
 }
 
