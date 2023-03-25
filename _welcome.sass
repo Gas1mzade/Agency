@@ -4,18 +4,19 @@
     height: 750px
     background-repeat: no-repeat
     background-size: cover
-    background-position: center
     .box
         text-align: center
         margin-top: 245px
         h1
             color: #ffff
             font-size: 55px
-            padding-bottom: 35px
+            padding-bottom: 13px
+            font-weight: 500
         h2
             color: #ffff
-            font-size: 95px
-            padding-bottom: 35px
+            font-size: 90px
+            padding-bottom: 39px
+            font-weight: 700
         h1,h2
             cursor: initial
         .btn
@@ -31,3 +32,22 @@
                 &:hover
                     cursor: pointer
 
+    @media screen and ( max-width: 992px )
+        background-position: center
+        .box
+            h1
+                font-size: 45px
+                padding-bottom: 18px
+    @media screen and ( max-width: 576px )
+        height: 550px
+        .box
+            margin-top: 150px
+            h1
+                font-size: 28px
+            h2
+                font-size: 65px
+            .btn
+                padding: 15px 45px
+                border-radius: 5px
+                h3
+                    font-size: 20px
