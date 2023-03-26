@@ -315,6 +315,115 @@ body {
   font-weight: 600;
   color: white;
 }
+@media screen and (max-width: 992px) {
+  #about .textbox h1 {
+    font-size: 60px;
+  }
+  #about .textbox h3 {
+    font-size: 25px;
+  }
+  #about .box .textbox {
+    width: 360px;
+  }
+  #about .box .textbox h2 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+  #about .box .textbox p {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+  #about .yellow {
+    width: 150px;
+    height: 150px;
+    background-color: #ffc800;
+    border-radius: 100%;
+    padding: 30px;
+    transform: translate(390px, 0);
+  }
+  #about .yellow h4 {
+    font-weight: 700;
+  }
+}
+@media screen and (max-width: 768px) {
+  #about .textbox h1 {
+    font-size: 50px;
+  }
+  #about .textbox h3 {
+    font-size: 20px;
+  }
+  #about .box .textbox {
+    width: 320px;
+  }
+  #about .box .textbox h2 {
+    font-size: 22px;
+  }
+  #about .box .textbox p {
+    font-size: 20px;
+    color: #6c757d;
+    line-height: 1.3;
+  }
+  #about .box .imgbox {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    margin: 0 0 0 20px;
+  }
+  #about .yellow {
+    width: 130px;
+    height: 130px;
+    padding: 19px;
+    transform: translate(280px, 0);
+  }
+}
+@media (max-width: 576px) {
+  #about {
+    padding: 50px 0;
+  }
+  #about .textbox h1 {
+    font-size: 50px;
+  }
+  #about .textbox h3 {
+    font-size: 20px;
+  }
+  #about .box {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 120px;
+    justify-content: center;
+  }
+  #about .box .minibox {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  #about .box .textbox h2 {
+    font-size: 25px;
+    text-align: start;
+  }
+  #about .box .textbox p {
+    font-size: 20px;
+    text-align: start;
+  }
+  #about .box .imgbox {
+    width: 100px;
+    height: 100px;
+    margin: 0 0 0 20px;
+  }
+  #about .box .different {
+    margin: 0;
+  }
+  #about .yellow {
+    width: 100px;
+    height: 100px;
+    padding: 13px;
+    transform: translate(20px, 0);
+  }
+  #about .yellow h4 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
 
 #ourteam {
   padding: 100px 0;
@@ -338,22 +447,22 @@ body {
   border-radius: 100%;
   border: 7px solid #dedddd;
 }
-#ourteam .box1 {
+#ourteam .center {
   padding-left: 109px;
 }
-#ourteam .box1 .minibox {
+#ourteam .center .minibox {
   padding: 10px 100px 10px 0;
 }
-#ourteam .box1 .minibox h2 {
+#ourteam .center .minibox h2 {
   font-weight: 600;
   font-size: 35px;
 }
-#ourteam .box1 .minibox h3 {
+#ourteam .center .minibox h3 {
   color: #7c7676;
   font-size: 20px;
   padding: 10px 0 20px;
 }
-#ourteam .box1 .minibox .icon i {
+#ourteam .center .minibox .icon i {
   padding: 11px;
   font-size: 15px;
   width: 38px;
@@ -364,144 +473,84 @@ body {
   margin: 0 10px;
   cursor: pointer;
 }
-#ourteam .box3 {
-  width: 885px;
-  margin-left: 180px;
-}
-#ourteam .box3 p {
+#ourteam .text p {
   color: #7c7676;
   font-size: 20px;
   padding: 42px 0;
 }
 @media screen and (max-width: 992px) {
   #ourteam .box h1 {
-    font-size: 55px;
+    font-size: 50px;
   }
   #ourteam .box h4 {
-    font-size: 23px;
+    font-size: 20px;
     padding: 25px 0 30px;
   }
   #ourteam .imgbox {
-    width: 270px;
-    height: 270px;
+    width: 215px;
+    height: 215px;
     border: 8px solid #dedddd;
   }
-  #ourteam .box1 {
-    padding-left: 10px;
+  #ourteam .center {
+    padding-left: 40px;
   }
-  #ourteam .box1 .minibox {
+  #ourteam .center .minibox {
     padding: 10px 45px 10px 0;
   }
-  #ourteam .box1 .minibox h2 {
-    font-size: 35px;
+  #ourteam .center .minibox h2 {
+    font-size: 27px;
   }
-  #ourteam .box1 .minibox h3 {
-    font-size: 23px;
+  #ourteam .center .minibox h3 {
+    font-size: 17px;
   }
-  #ourteam .box1 .minibox .icon i {
-    padding: 15px;
+  #ourteam .center .minibox .icon i {
+    padding: 10px;
     font-size: 20px;
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
+    width: 40px;
+    height: 40px;
   }
-  #ourteam .box3 {
-    width: 885px;
-    margin-left: 40px;
-  }
-  #ourteam .box3 p {
-    font-size: 25px;
+  #ourteam .text p {
+    font-size: 20px;
     padding: 42px 0;
     line-height: 1.2;
   }
 }
 @media screen and (max-width: 768px) {
   #ourteam .box h1 {
-    font-size: 75px;
+    font-size: 55px;
   }
   #ourteam .box h4 {
-    font-size: 28px;
+    font-size: 20px;
     padding: 35px 0 100px;
   }
   #ourteam .imgbox {
-    width: 370px;
-    height: 370px;
+    width: 240px;
+    height: 240px;
   }
-  #ourteam .box1 {
-    padding-left: 100px;
+  #ourteam .center {
     margin: 0 50px;
   }
-  #ourteam .box1 .minibox {
-    width: 460px;
-    padding: 50px 0 70px;
+  #ourteam .center .image {
+    display: flex;
+    justify-content: center;
   }
-  #ourteam .box1 .minibox h2 {
-    font-size: 45px;
+  #ourteam .center .minibox {
+    padding: 0 0 40px;
   }
-  #ourteam .box1 .minibox h3 {
-    font-size: 33px;
-    padding: 30px 0 40px;
+  #ourteam .center .minibox h2 {
+    font-size: 30px;
   }
-  #ourteam .box1 .minibox .icon i {
-    padding: 14px;
-    font-size: 35px;
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-    margin: 0 20px;
+  #ourteam .center .minibox h3 {
+    font-size: 20px;
+    padding: 9px 0 17px;
   }
-  #ourteam .box3 {
-    width: 1100px;
-    margin-left: -150px;
+  #ourteam .center .minibox .icon i {
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
   }
-  #ourteam .box3 p {
-    font-size: 35px;
-    padding: 42px 0;
-    line-height: 1.3;
-  }
-}
-@media screen and (max-width: 576px) {
-  #ourteam .box {
-    margin: 0 350px;
-  }
-  #ourteam .box h1 {
-    font-size: 165px;
-  }
-  #ourteam .box h4 {
-    font-size: 60px;
-  }
-  #ourteam .imgbox {
-    width: 600px;
-    height: 600px;
-  }
-  #ourteam .box1 {
-    padding-left: 300px;
-  }
-  #ourteam .box1 .minibox {
-    width: 580px;
-    padding: 50px 0 70px;
-  }
-  #ourteam .box1 .minibox h2 {
-    font-size: 85px;
-  }
-  #ourteam .box1 .minibox h3 {
-    font-size: 70px;
-  }
-  #ourteam .box1 .minibox .icon i {
-    padding: 27px;
-    font-size: 70px;
-    width: 135px;
-    height: 135px;
-    margin: 0 20px;
-  }
-  #ourteam .box3 {
-    width: 1213px;
-    margin-left: 40px;
-  }
-  #ourteam .box3 p {
-    font-size: 80px;
-    padding: 42px 0;
-    line-height: 1.3;
+  #ourteam .text p {
+    font-size: 20px;
   }
 }
 
