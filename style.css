@@ -297,6 +297,10 @@ body {
   border-radius: 100%;
   border: 8px solid #f1f1f1;
 }
+#about .box .different {
+  display: flex;
+  justify-content: flex-end;
+}
 #about .yellow {
   width: 150px;
   height: 150px;
