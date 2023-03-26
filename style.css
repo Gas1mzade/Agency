@@ -424,6 +424,11 @@ body {
     font-weight: 700;
   }
 }
+@media screen and (max-width: 320px) {
+  #about .box .textbox {
+    width: 210px;
+  }
+}
 
 #ourteam {
   padding: 100px 0;
@@ -472,6 +477,9 @@ body {
   border-radius: 100%;
   margin: 0 10px;
   cursor: pointer;
+}
+#ourteam .center .minibox .icon i:hover {
+  background-color: #8f9090;
 }
 #ourteam .text p {
   color: #7c7676;
@@ -553,6 +561,45 @@ body {
     font-size: 20px;
   }
 }
+@media screen and (max-width: 320px) {
+  #ourteam .box h1 {
+    font-size: 55px;
+  }
+  #ourteam .box h4 {
+    font-size: 20px;
+    padding: 25px 0 100px;
+  }
+  #ourteam .imgbox {
+    width: 240px;
+    height: 240px;
+  }
+  #ourteam .center {
+    margin: 0 10px;
+    padding-left: 10px;
+  }
+  #ourteam .center .image {
+    display: flex;
+    justify-content: center;
+  }
+  #ourteam .center .minibox {
+    padding: 0 0 40px;
+  }
+  #ourteam .center .minibox h2 {
+    font-size: 30px;
+  }
+  #ourteam .center .minibox h3 {
+    font-size: 20px;
+    padding: 9px 0 17px;
+  }
+  #ourteam .center .minibox .icon i {
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+  }
+  #ourteam .text p {
+    font-size: 20px;
+  }
+}
 
 #logo {
   padding: 100px 0 50px;
@@ -560,37 +607,15 @@ body {
 #logo .imgbox {
   width: 170px;
 }
-#logo .imgbox2 {
-  width: 150px;
+#logo .google {
+  width: 140px;
 }
-#logo .imgbox3 {
-  width: 120px;
-}
-@media screen and (max-width: 768px) {
-  #logo .imgbox {
-    width: 250px;
-  }
-  #logo .imgbox2 {
-    width: 250px;
-  }
-  #logo .imgbox3 {
-    width: 250px;
-  }
+#logo .ibm {
+  width: 110px;
 }
 @media screen and (max-width: 576px) {
-  #logo {
-    display: flex;
-    align-items: center;
-  }
-  #logo .imgbox {
-    width: 750px;
-    margin: 90px;
-  }
-  #logo .imgbox2 {
-    width: 500px;
-  }
-  #logo .imgbox3 {
-    width: 550px;
+  #logo .ibm {
+    margin-top: 10px;
   }
 }
 
@@ -599,13 +624,8 @@ body {
   background-image: url("A.Assets/map-image.png");
   background-color: #212529;
   height: 690px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 #contactus .textbox {
-  display: flex;
-  flex-direction: column;
   margin: 50px 0 0;
   text-align: center;
 }
@@ -621,16 +641,11 @@ body {
   padding-top: 80px;
 }
 #contactus .box input {
-  display: flex;
-  align-items: center;
   width: 630px;
   height: 65px;
   margin-bottom: 30px;
 }
-#contactus .box2 {
-  padding-top: 78px;
-}
-#contactus .box2 textarea {
+#contactus .area textarea {
   max-height: 260px;
   border-radius: 5px;
   cursor: initial;
@@ -644,6 +659,22 @@ body {
   font-size: 25px;
   color: white;
   padding-top: 10px;
+}
+@media screen and (max-width: 1024px) {
+  #contactus .box {
+    padding-top: 60px;
+  }
+  #contactus .box input {
+    width: 465px;
+    height: 70px;
+  }
+  #contactus .area {
+    padding-top: 58px;
+  }
+  #contactus .area textarea {
+    max-height: 270px;
+    width: 100%;
+  }
 }
 @media screen and (max-width: 992px) {
   #contactus .textbox h1 {
@@ -659,11 +690,12 @@ body {
     width: 465px;
     height: 70px;
   }
-  #contactus .box2 {
+  #contactus .area {
     padding-top: 58px;
   }
-  #contactus .box2 textarea {
+  #contactus .area textarea {
     max-height: 270px;
+    width: 100%;
   }
   #contactus .btn h3 {
     font-size: 25px;
@@ -672,69 +704,72 @@ body {
 }
 @media screen and (max-width: 768px) {
   #contactus .textbox h1 {
-    font-size: 85px;
-    margin: 90px 0 25px;
+    font-size: 45px;
+    margin: 40px 0 15px;
   }
   #contactus .textbox h4 {
-    font-size: 35px;
+    font-size: 20px;
   }
   #contactus .box {
-    padding-top: 60px;
-    transform: translate(-290px, -1px);
+    padding-top: 50px;
   }
   #contactus .box input {
-    width: 635px;
-    height: 140px;
+    width: 330px;
+    border-radius: 8px;
   }
-  #contactus .box2 {
-    padding-top: 58px;
+  #contactus .area {
+    padding-top: 50px;
   }
-  #contactus .box2 textarea {
-    max-height: 480px;
+  #contactus .area textarea {
+    max-height: 270px;
   }
   #contactus .btn {
-    width: 300px;
-    height: 95px;
+    width: 250px;
+    height: 65px;
+    opacity: 0.5;
   }
   #contactus .btn h3 {
-    font-size: 30px;
-    padding-top: 15px;
+    font-size: 25px;
+    padding-top: 7px;
   }
 }
 @media screen and (max-width: 576px) {
+  #contactus {
+    height: 750px;
+  }
   #contactus .textbox {
-    padding-top: 150px;
+    margin: 30px 0 0;
   }
   #contactus .textbox h1 {
-    font-size: 200px;
-    margin: 90px 0 25px;
+    font-size: 40px;
+    margin: 0 0 20px;
+    font-weight: 700;
   }
   #contactus .textbox h4 {
-    font-size: 95px;
+    font-size: 20px;
   }
   #contactus .box {
-    padding-top: 150px;
-    transform: translate(35px, -1px);
+    padding-top: 50px;
   }
   #contactus .box input {
-    width: 1190px;
-    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
   }
-  #contactus .box2 {
-    transform: translate(35px, -1px);
-    padding-top: 58px;
+  #contactus .area {
+    padding-top: 6px;
   }
-  #contactus .box2 textarea {
-    max-height: 480px;
+  #contactus .area textarea {
+    max-height: 170px;
   }
   #contactus .btn {
-    transform: translate(0px, 150px);
-    width: 900px;
-    height: 225px;
+    width: 215px;
+    height: 60px;
+    opacity: 0.6;
+    margin-top: 15px;
   }
   #contactus .btn h3 {
-    font-size: 80px;
-    padding-top: 20px;
+    font-size: 20px;
+    padding-top: 10px;
   }
 }
 
@@ -825,6 +860,8 @@ footer {
 }
 footer .box {
   margin: 0 140px;
+  display: flex;
+  justify-content: space-between;
 }
 footer .box .minibox h1, footer .box .minibox h2, footer .box .minibox h3 {
   font-size: 19px;
@@ -842,4 +879,50 @@ footer .box .minibox .icon i {
   border-radius: 100px;
   margin: 0 10px;
   cursor: pointer;
+}
+footer .box .minibox .icon i:hover {
+  background-color: #8f9090;
+}
+footer .box .end {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  footer {
+    height: 150px;
+  }
+  footer .box {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .box .minibox {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  footer .box .end {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 320px) {
+  footer {
+    height: 150px;
+  }
+  footer .box {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .box .minibox {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  footer .box .minibox .icon {
+    display: flex;
+  }
+  footer .box .end {
+    display: flex;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=style.css.map */
