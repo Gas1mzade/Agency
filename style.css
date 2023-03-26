@@ -34,7 +34,7 @@ body {
   cursor: initial;
 }
 #welcome .box .btn {
-  padding: 20px 60px;
+  padding: 15px 55px;
   background-color: #ffc800;
 }
 #welcome .box .btn:hover {
@@ -274,8 +274,13 @@ body {
   display: flex;
   padding-bottom: 120px;
 }
+#about .box .minibox {
+  width: 43%;
+  display: flex;
+  justify-content: flex-start;
+}
 #about .box .textbox {
-  width: 550px;
+  width: 80%;
   padding: 20px 20px 20px 28px;
 }
 #about .box .textbox h2 {
@@ -283,18 +288,14 @@ body {
   font-weight: 700;
 }
 #about .box .textbox p {
-  font-size: 19px;
-  line-height: 0.9;
+  font-size: 18px;
+  line-height: 1.2;
 }
 #about .box .imgbox {
-  margin: 0 400px 0 20px;
   width: 150px;
   height: 150px;
-  border-radius: 100px;
+  border-radius: 100%;
   border: 8px solid #f1f1f1;
-}
-#about .box .different {
-  margin: 0 30px 0 20px;
 }
 #about .yellow {
   width: 150px;
@@ -302,7 +303,7 @@ body {
   background-color: #ffc800;
   border-radius: 100%;
   padding: 27px;
-  margin-left: 560px;
+  transform: translate(550px, 0);
   border: 8px solid #ffe8e8;
 }
 #about .yellow h4 {
