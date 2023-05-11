@@ -1,8 +1,6 @@
 #portfolio
     background-color: #f7f7f7
     padding: 70px 0 100px
-    img
-        width: 100%
     h1
         font-weight: 700
         font-size: 60px
@@ -11,6 +9,25 @@
         color: #626161
         margin: 20px 0 50px
     .imgbox
+        position: relative
+        img
+            width: 100%
+        .icon
+            width: 100%
+            position: absolute
+            display: flex
+            justify-content: center
+            align-items: center
+            top: 0
+            bottom: 0
+            color: #ffff
+            font-size: 50px
+            opacity: 0
+            &:hover
+                background-color: #ffbb00
+                opacity: 0.9
+                transition: 0.5s
+                cursor: pointer
     .textbox
         h2
             font-weight: 700
