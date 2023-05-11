@@ -102,7 +102,8 @@ body {
   height: 130px;
   border-radius: 100%;
   padding: 35px 20px;
-  margin: 0 0 15px 140px;
+  margin: auto;
+  margin-bottom: 15px;
 }
 #services .box .icon i {
   font-size: 65px;
@@ -136,10 +137,6 @@ body {
     width: 120px;
     height: 120px;
     padding: 30px 20px;
-    margin: 0 0 15px 85px;
-  }
-  #services .box .different {
-    margin: 0 100px 15px 80px;
   }
   #services .textbox h2 {
     font-size: 25px;
@@ -155,12 +152,6 @@ body {
   }
   #services h1 {
     font-size: 45px;
-  }
-  #services .box .icon {
-    margin: 0 0 15px 45px;
-  }
-  #services .box .different {
-    margin: 0 100px 15px 45px;
   }
   #services .textbox h2 {
     font-weight: 700;
@@ -180,9 +171,6 @@ body {
   #services .box {
     display: flex;
     justify-content: center;
-  }
-  #services .box .different, #services .box .icon {
-    margin: 0 0 15px;
   }
   #services .textbox h2 {
     font-size: 30px;
@@ -210,9 +198,6 @@ body {
   font-size: 20px;
   color: #626161;
   margin: 20px 0 50px;
-}
-#portfolio .imgbox {
-  background-color: white;
 }
 #portfolio .textbox h2 {
   font-weight: 700;
@@ -281,7 +266,7 @@ body {
 }
 #about .box .textbox {
   width: 80%;
-  padding: 20px 20px 20px 28px;
+  padding: 20px 20px 20px 15px;
 }
 #about .box .textbox h2 {
   font-size: 30px;
@@ -778,7 +763,7 @@ header {
   background-color: #212529;
   padding: 25px 0;
   width: 100%;
-  z-index: 2;
+  z-index: 1;
 }
 header .imgbox {
   width: 150px;
