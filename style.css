@@ -283,6 +283,7 @@ body {
 #about .box .textbox {
   width: 37%;
   margin: 0 20px;
+  text-align: end;
 }
 #about .box .textbox h2, #about .box .textbox h5 {
   font-size: 30px;
@@ -301,13 +302,17 @@ body {
   border: 6px solid rgba(210, 210, 210, 0.4784313725);
   margin: 0 30px;
 }
-#about .box .different {
+#about .different {
   display: flex;
   justify-content: end;
-  margin: 0 100px 100px 0;
+  margin: 0 0 100px 0;
 }
-#about .box .different .textbox {
+#about .different .textbox {
   text-align: start;
+}
+#about .last {
+  display: flex;
+  justify-content: center;
 }
 #about .yellow {
   width: 150px;
@@ -391,7 +396,12 @@ body {
   #about .textbox h3 {
     font-size: 20px;
   }
+  #about .box {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
   #about .box .textbox {
+    text-align: start;
     width: 35%;
   }
   #about .box .textbox h2 {
@@ -403,28 +413,31 @@ body {
     line-height: 1.3;
   }
   #about .box .imgbox {
-    width: 120px;
-    height: 120px;
+    width: 80px;
+    height: 80px;
     border-radius: 100%;
     margin: 0 0 0 20px;
   }
-  #about .box .different {
+  #about .different {
+    flex-direction: row;
     display: flex;
-    justify-content: end;
+    justify-content: start;
     margin: 0 100px 100px 0;
   }
-  #about .box .different .textbox {
+  #about .different .textbox {
     text-align: start;
   }
-  #about .yellow {
-    width: 130px;
-    height: 130px;
-    padding: 19px;
+  #about .last {
+    display: flex;
+    justify-content: start;
   }
-}
-@media screen and (max-width: 320px) {
-  #about .box .textbox {
-    width: 210px;
+  #about .yellow {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+  }
+  #about .yellow h4 {
+    font-size: 15px;
   }
 }
 
@@ -451,10 +464,10 @@ body {
   border: 7px solid #dedddd;
 }
 #ourteam .center {
-  padding-left: 109px;
+  padding-left: 60px;
 }
 #ourteam .center .minibox {
-  padding: 10px 100px 10px 0;
+  padding: 10px 0 10px 50px;
 }
 #ourteam .center .minibox h2 {
   font-weight: 600;
@@ -601,6 +614,8 @@ body {
 
 #logo {
   padding: 100px 0 50px;
+  display: flex;
+  align-items: center;
 }
 #logo .imgbox {
   width: 170px;
@@ -639,14 +654,19 @@ body {
   padding-top: 80px;
 }
 #contactus .box input {
-  width: 630px;
+  width: 100%;
   height: 65px;
   margin-bottom: 30px;
 }
+#contactus .area {
+  display: flex;
+  font-size: 20px;
+}
 #contactus .area textarea {
-  max-height: 260px;
+  color: #a1a1a1;
   border-radius: 5px;
-  cursor: initial;
+  font-weight: 700;
+  padding: 27px;
 }
 #contactus .btn {
   width: 271px;
@@ -667,11 +687,14 @@ body {
     height: 70px;
   }
   #contactus .area {
-    padding-top: 58px;
+    display: flex;
+    font-size: 17px;
   }
   #contactus .area textarea {
-    max-height: 270px;
-    width: 100%;
+    color: #a1a1a1;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 35px;
   }
 }
 @media screen and (max-width: 992px) {

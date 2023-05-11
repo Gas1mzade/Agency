@@ -12,11 +12,11 @@
             padding: 20px 0 75px
     .box
         display: flex
-        // align-items: center
         margin: 0 0 100px
         .textbox
             width: 37%
             margin: 0 20px
+            text-align: end
             h2,h5
                 font-size: 30px
                 font-weight: 700
@@ -31,12 +31,15 @@
             border-radius: 100%
             border: 6px solid #d2d2d27a
             margin: 0 30px
-        .different
-            display: flex
-            justify-content: end
-            margin: 0 100px 100px 0
-            .textbox
-                text-align: start
+    .different
+        display: flex
+        justify-content: end
+        margin: 0 0 100px 0
+        .textbox
+            text-align: start
+    .last
+        display: flex
+        justify-content: center
     .yellow
         width: 150px
         height: 150px
@@ -97,7 +100,6 @@
             width: 130px
             height: 130px
             padding: 19px
-            // transform: translate( 280px , 0 )
 
     @media screen and ( max-width: 576px )
         padding: 50px 0
@@ -107,7 +109,10 @@
             h3
                 font-size: 20px
         .box
+            flex-direction: row-reverse
+            justify-content: flex-end
             .textbox
+                text-align: start
                 width: 35%
                 h2
                     font-size: 27px
@@ -116,22 +121,23 @@
                     color: #6c757d
                     line-height: 1.3
             .imgbox
-                width: 120px
-                height: 120px
+                width: 80px
+                height: 80px
                 border-radius: 100%
                 margin: 0 0 0 20px
-            .different
-                display: flex
-                justify-content: end
-                margin: 0 100px 100px 0
-                .textbox
-                    text-align: start
-        .yellow
-            width: 130px
-            height: 130px
-            padding: 19px
-
-    @media screen and ( max-width: 320px )
-        .box
+        .different
+            flex-direction: row
+            display: flex
+            justify-content: start
+            margin: 0 100px 100px 0
             .textbox
-                width: 210px
+                text-align: start
+        .last
+            display: flex
+            justify-content: start
+        .yellow
+            width: 80px
+            height: 80px
+            padding: 10px
+            h4
+                font-size: 15px
