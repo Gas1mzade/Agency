@@ -16,30 +16,29 @@
         height: 210px
         border-radius: 100%
         border: 7px solid #dedddd
-    .center
-        padding-left: 60px
-        .minibox
-            padding: 10px 0 10px 50px
-            h2
-                font-weight: 600
-                font-size: 35px
-            h3
-                color: #7c7676
-                font-size: 20px
-                padding: 10px 0 20px
-            .icon
-                i
-                    padding: 11px
-                    font-size: 15px
-                    width: 38px
-                    height: 38px
-                    background-color: #212529
-                    color: #ffff
-                    border-radius: 100%
-                    margin: 0 10px
-                    cursor: pointer
-                    &:hover
-                        background-color: #8f9090
+        margin-left: 70px
+    h2
+        font-weight: 600
+        font-size: 35px
+    h3
+        color: #7c7676
+        font-size: 20px
+        padding: 10px 0 20px
+    .icon
+        display: flex
+        justify-content: center
+        i
+            padding: 11px
+            font-size: 15px
+            width: 38px
+            height: 38px
+            background-color: #212529
+            color: #ffff
+            border-radius: 100%
+            margin: 0 10px
+            cursor: pointer
+            &:hover
+                background-color: #8f9090
     .text
         p
             color: #7c7676
@@ -57,20 +56,19 @@
             width: 215px
             height: 215px
             border: 8px solid #dedddd
+            margin-left: 38px
         .center
-            padding-left: 40px
-            .minibox
-                padding: 10px 45px 10px 0
-                h2
-                    font-size: 27px
-                h3
-                    font-size: 17px
-                .icon
-                    i
-                        padding: 10px
-                        font-size: 20px
-                        width: 40px
-                        height: 40px
+            // padding-left: 40px
+            h2
+                font-size: 27px
+            h3
+                font-size: 17px
+            .icon
+                i
+                    padding: 10px
+                    font-size: 20px
+                    width: 40px
+                    height: 40px
         .text
             p
                 font-size: 20px
@@ -88,25 +86,24 @@
             width: 240px
             height: 240px
         .center
-            margin: 0 50px
-            .image
-                display: flex
-                justify-content: center
-            .minibox
-                padding: 0 0 40px
-                h2
-                    font-size: 30px
-                h3
+            margin: 15px 185px
+            h2
+                font-size: 30px
+            h3
+                font-size: 20px
+                padding: 9px 0 17px
+            .icon
+                i
                     font-size: 20px
-                    padding: 9px 0 17px
-                .icon
-                    i
-                        font-size: 20px
-                        width: 40px
-                        height: 40px
+                    width: 40px
+                    height: 40px
         .text
             p
                 font-size: 20px
+
+    @media screen and ( max-width: 576px )
+        .center
+            margin: 15px 100px
 
     @media screen and ( max-width: 320px )
         .box
@@ -114,28 +111,14 @@
                 font-size: 55px
             h4
                 font-size: 20px
-                padding: 25px 0 100px
+                padding: 25px 0 50px
         .imgbox
             width: 240px
             height: 240px
         .center
-            margin: 0 10px
-            padding-left: 10px
-            .image
-                display: flex
-                justify-content: center
-            .minibox
-                padding: 0 0 40px
-                h2
-                    font-size: 30px
+            margin: 10px -10px
+            h2
+                font-size: 30px
                 h3
                     font-size: 20px
                     padding: 9px 0 17px
-                .icon
-                    i
-                        font-size: 20px
-                        width: 40px
-                        height: 40px
-        .text
-            p
-                font-size: 20px

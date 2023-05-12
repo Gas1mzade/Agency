@@ -462,23 +462,22 @@ body {
   height: 210px;
   border-radius: 100%;
   border: 7px solid #dedddd;
+  margin-left: 70px;
 }
-#ourteam .center {
-  padding-left: 60px;
-}
-#ourteam .center .minibox {
-  padding: 10px 0 10px 50px;
-}
-#ourteam .center .minibox h2 {
+#ourteam h2 {
   font-weight: 600;
   font-size: 35px;
 }
-#ourteam .center .minibox h3 {
+#ourteam h3 {
   color: #7c7676;
   font-size: 20px;
   padding: 10px 0 20px;
 }
-#ourteam .center .minibox .icon i {
+#ourteam .icon {
+  display: flex;
+  justify-content: center;
+}
+#ourteam .icon i {
   padding: 11px;
   font-size: 15px;
   width: 38px;
@@ -489,7 +488,7 @@ body {
   margin: 0 10px;
   cursor: pointer;
 }
-#ourteam .center .minibox .icon i:hover {
+#ourteam .icon i:hover {
   background-color: #8f9090;
 }
 #ourteam .text p {
@@ -509,20 +508,15 @@ body {
     width: 215px;
     height: 215px;
     border: 8px solid #dedddd;
+    margin-left: 38px;
   }
-  #ourteam .center {
-    padding-left: 40px;
-  }
-  #ourteam .center .minibox {
-    padding: 10px 45px 10px 0;
-  }
-  #ourteam .center .minibox h2 {
+  #ourteam .center h2 {
     font-size: 27px;
   }
-  #ourteam .center .minibox h3 {
+  #ourteam .center h3 {
     font-size: 17px;
   }
-  #ourteam .center .minibox .icon i {
+  #ourteam .center .icon i {
     padding: 10px;
     font-size: 20px;
     width: 40px;
@@ -547,23 +541,16 @@ body {
     height: 240px;
   }
   #ourteam .center {
-    margin: 0 50px;
+    margin: 15px 185px;
   }
-  #ourteam .center .image {
-    display: flex;
-    justify-content: center;
-  }
-  #ourteam .center .minibox {
-    padding: 0 0 40px;
-  }
-  #ourteam .center .minibox h2 {
+  #ourteam .center h2 {
     font-size: 30px;
   }
-  #ourteam .center .minibox h3 {
+  #ourteam .center h3 {
     font-size: 20px;
     padding: 9px 0 17px;
   }
-  #ourteam .center .minibox .icon i {
+  #ourteam .center .icon i {
     font-size: 20px;
     width: 40px;
     height: 40px;
@@ -572,43 +559,32 @@ body {
     font-size: 20px;
   }
 }
+@media screen and (max-width: 576px) {
+  #ourteam .center {
+    margin: 15px 100px;
+  }
+}
 @media screen and (max-width: 320px) {
   #ourteam .box h1 {
     font-size: 55px;
   }
   #ourteam .box h4 {
     font-size: 20px;
-    padding: 25px 0 100px;
+    padding: 25px 0 50px;
   }
   #ourteam .imgbox {
     width: 240px;
     height: 240px;
   }
   #ourteam .center {
-    margin: 0 10px;
-    padding-left: 10px;
+    margin: 10px -10px;
   }
-  #ourteam .center .image {
-    display: flex;
-    justify-content: center;
-  }
-  #ourteam .center .minibox {
-    padding: 0 0 40px;
-  }
-  #ourteam .center .minibox h2 {
+  #ourteam .center h2 {
     font-size: 30px;
   }
-  #ourteam .center .minibox h3 {
+  #ourteam .center h2 h3 {
     font-size: 20px;
     padding: 9px 0 17px;
-  }
-  #ourteam .center .minibox .icon i {
-    font-size: 20px;
-    width: 40px;
-    height: 40px;
-  }
-  #ourteam .text p {
-    font-size: 20px;
   }
 }
 
@@ -646,6 +622,9 @@ body {
   font-size: 50px;
   color: white;
 }
+#contactus .textbox h1:hover {
+  cursor: initial;
+}
 #contactus .textbox h4 {
   color: #8f9193;
   font-size: 20px;
@@ -677,6 +656,9 @@ body {
   font-size: 25px;
   color: white;
   padding-top: 10px;
+}
+#contactus .btn h3:hover {
+  cursor: pointer;
 }
 @media screen and (max-width: 1024px) {
   #contactus .box {
@@ -879,18 +861,13 @@ header nav .icon i {
 footer {
   padding: 30px 0 10px;
 }
-footer .box {
-  margin: 0 140px;
-  display: flex;
-  justify-content: space-between;
+footer h1 {
+  font-size: 17px;
 }
-footer .box .minibox h1, footer .box .minibox h2, footer .box .minibox h3 {
-  font-size: 19px;
+footer h1:hover {
+  cursor: initial;
 }
-footer .box .minibox h2 {
-  padding-right: 15px;
-}
-footer .box .minibox .icon i {
+footer .icon i {
   padding: 13px;
   font-size: 15px;
   width: 38px;
@@ -901,49 +878,18 @@ footer .box .minibox .icon i {
   margin: 0 10px;
   cursor: pointer;
 }
-footer .box .minibox .icon i:hover {
+footer .icon i:hover {
   background-color: #8f9090;
 }
-footer .box .end {
-  display: flex;
-  justify-content: space-between;
+footer h2, footer h3 {
+  font-size: 17px;
+  padding-right: 10px;
+}
+footer h2:hover, footer h3:hover {
+  cursor: pointer;
 }
 @media screen and (max-width: 768px) {
-  footer {
-    height: 150px;
-  }
-  footer .box {
-    display: flex;
-    flex-direction: column;
-  }
-  footer .box .minibox {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 20px;
-  }
-  footer .box .end {
-    display: flex;
-    justify-content: center;
-  }
-}
-@media screen and (max-width: 320px) {
-  footer {
-    height: 150px;
-  }
-  footer .box {
-    display: flex;
-    flex-direction: column;
-  }
-  footer .box .minibox {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 20px;
-  }
-  footer .box .minibox .icon {
-    display: flex;
-  }
-  footer .box .end {
-    display: flex;
-    justify-content: center;
+  footer .icon {
+    margin: 20px 0;
   }
 }/*# sourceMappingURL=style.css.map */

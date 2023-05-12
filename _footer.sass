@@ -1,55 +1,29 @@
 footer
     padding: 30px 0 10px
-    .box
-        margin: 0 140px
-        display: flex
-        justify-content: space-between
-        .minibox
-            h1,h2,h3
-                font-size: 19px
-            h2
-                padding-right: 15px
-            .icon
-                i
-                    padding: 13px
-                    font-size: 15px
-                    width: 38px
-                    height: 38px
-                    background-color: #212529
-                    color: #ffff
-                    border-radius: 100px
-                    margin: 0 10px
-                    cursor: pointer
-                    &:hover
-                        background-color: #8f9090
-        .end
-            display: flex
-            justify-content: space-between
+    h1
+        font-size: 17px
+        &:hover
+            cursor: initial
+    .icon
+        i
+            padding: 13px
+            font-size: 15px
+            width: 38px
+            height: 38px
+            background-color: #212529
+            color: #ffff
+            border-radius: 100px
+            margin: 0 10px
+            cursor: pointer
+            &:hover
+                background-color: #8f9090
+    h2,h3
+        font-size: 17px
+        padding-right: 10px
+        &:hover
+            cursor: pointer
+
 
     @media screen and ( max-width: 768px )
-        height: 150px
-        .box
-            display: flex
-            flex-direction: column
-            .minibox
-                display: flex
-                justify-content: center
-                padding-bottom: 20px
-            .end
-                display: flex
-                justify-content: center
-    @media screen and ( max-width: 320px )
-
-        height: 150px
-        .box
-            display: flex
-            flex-direction: column
-            .minibox
-                display: flex
-                justify-content: center
-                padding-bottom: 20px
-                .icon
-                    display: flex
-            .end
-                display: flex
-                justify-content: center
+        .icon
+            margin: 20px 0
