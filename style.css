@@ -462,7 +462,6 @@ body {
   height: 210px;
   border-radius: 100%;
   border: 7px solid #dedddd;
-  margin-left: 70px;
 }
 #ourteam h2 {
   font-weight: 600;
@@ -478,10 +477,9 @@ body {
   justify-content: center;
 }
 #ourteam .icon i {
-  padding: 11px;
+  padding: 13px;
   font-size: 15px;
   width: 38px;
-  height: 38px;
   background-color: #212529;
   color: white;
   border-radius: 100%;
@@ -496,95 +494,19 @@ body {
   font-size: 20px;
   padding: 42px 0;
 }
-@media screen and (max-width: 992px) {
-  #ourteam .box h1 {
-    font-size: 50px;
-  }
-  #ourteam .box h4 {
-    font-size: 20px;
-    padding: 25px 0 30px;
-  }
-  #ourteam .imgbox {
-    width: 215px;
-    height: 215px;
-    border: 8px solid #dedddd;
-    margin-left: 38px;
-  }
-  #ourteam .center h2 {
-    font-size: 27px;
-  }
-  #ourteam .center h3 {
-    font-size: 17px;
-  }
-  #ourteam .center .icon i {
-    padding: 10px;
-    font-size: 20px;
-    width: 40px;
-    height: 40px;
-  }
-  #ourteam .text p {
-    font-size: 20px;
-    padding: 42px 0;
-    line-height: 1.2;
-  }
-}
 @media screen and (max-width: 768px) {
-  #ourteam .box h1 {
-    font-size: 55px;
-  }
-  #ourteam .box h4 {
-    font-size: 20px;
-    padding: 35px 0 100px;
-  }
-  #ourteam .imgbox {
-    width: 240px;
-    height: 240px;
-  }
-  #ourteam .center {
-    margin: 15px 185px;
-  }
-  #ourteam .center h2 {
-    font-size: 30px;
-  }
-  #ourteam .center h3 {
-    font-size: 20px;
-    padding: 9px 0 17px;
-  }
-  #ourteam .center .icon i {
-    font-size: 20px;
-    width: 40px;
-    height: 40px;
-  }
-  #ourteam .text p {
-    font-size: 20px;
+  #ourteam .box {
+    padding: 15px 0;
   }
 }
 @media screen and (max-width: 576px) {
-  #ourteam .center {
-    margin: 15px 100px;
+  #ourteam .box {
+    padding: 15px 0;
   }
 }
 @media screen and (max-width: 320px) {
-  #ourteam .box h1 {
-    font-size: 55px;
-  }
-  #ourteam .box h4 {
-    font-size: 20px;
-    padding: 25px 0 50px;
-  }
-  #ourteam .imgbox {
-    width: 240px;
-    height: 240px;
-  }
-  #ourteam .center {
-    margin: 10px -10px;
-  }
-  #ourteam .center h2 {
-    font-size: 30px;
-  }
-  #ourteam .center h2 h3 {
-    font-size: 20px;
-    padding: 9px 0 17px;
+  #ourteam .box {
+    padding: 15px 0;
   }
 }
 
