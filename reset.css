@@ -50,7 +50,7 @@ textarea:focus, input:focus{
 }
 
 *{
-	cursor: default;
+	cursor: initial;
 	scroll-behavior: smooth;
 }
 

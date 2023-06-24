@@ -19,26 +19,27 @@
             font-weight: 700
         h1,h2
             cursor: initial
-        .btn
-            padding: 15px 55px
+        a
+            padding: 15px 50px
             background-color: #ffc800
+            border-radius: 6px
+            color: #fff
+            font-size: 23px
+            font-weight: 700
             &:hover
                 background-color: #edc200
-            h3
-                color: #fff
-                font-size: 25px
-                font-weight: 700
-                cursor: default
-                &:hover
-                    cursor: pointer
+
+    @media screen and ( max-width: 1024px )
+        background-position: center center
 
     @media screen and ( max-width: 992px )
-        background-position: center
+        background-position: center center
         .box
             h1
                 font-size: 45px
                 padding-bottom: 18px
     @media screen and ( max-width: 576px )
+        background-position: center 
         height: 550px
         .box
             margin-top: 150px
@@ -46,8 +47,8 @@
                 font-size: 28px
             h2
                 font-size: 65px
-            .btn
-                padding: 15px 45px
+            a
+                padding: 18px 50px
                 border-radius: 5px
-                h3
-                    font-size: 20px
+                font-size: 25px
+                font-weight: 700

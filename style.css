@@ -33,25 +33,25 @@ body {
 #welcome .box h1, #welcome .box h2 {
   cursor: initial;
 }
-#welcome .box .btn {
-  padding: 15px 55px;
+#welcome .box a {
+  padding: 15px 50px;
   background-color: #ffc800;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 23px;
+  font-weight: 700;
 }
-#welcome .box .btn:hover {
+#welcome .box a:hover {
   background-color: #edc200;
 }
-#welcome .box .btn h3 {
-  color: #fff;
-  font-size: 25px;
-  font-weight: 700;
-  cursor: default;
-}
-#welcome .box .btn h3:hover {
-  cursor: pointer;
+@media screen and (max-width: 1024px) {
+  #welcome {
+    background-position: center center;
+  }
 }
 @media screen and (max-width: 992px) {
   #welcome {
-    background-position: center;
+    background-position: center center;
   }
   #welcome .box h1 {
     font-size: 45px;
@@ -60,6 +60,7 @@ body {
 }
 @media screen and (max-width: 576px) {
   #welcome {
+    background-position: center;
     height: 550px;
   }
   #welcome .box {
@@ -71,12 +72,11 @@ body {
   #welcome .box h2 {
     font-size: 65px;
   }
-  #welcome .box .btn {
-    padding: 15px 45px;
+  #welcome .box a {
+    padding: 18px 50px;
     border-radius: 5px;
-  }
-  #welcome .box .btn h3 {
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 700;
   }
 }
 
@@ -88,10 +88,16 @@ body {
   padding-bottom: 20px;
   font-weight: 700;
 }
+#services h1:hover {
+  cursor: initial;
+}
 #services h3 {
   font-size: 20px;
   color: #555454;
   padding-bottom: 65px;
+}
+#services h3:hover {
+  cursor: initial;
 }
 #services .box {
   text-align: center;
@@ -117,10 +123,16 @@ body {
   padding-bottom: 20px;
   font-weight: 700;
 }
+#services .textbox h2:hover {
+  cursor: initial;
+}
 #services .textbox p {
   font-size: 20px;
   color: #6c757d;
   line-height: 1.4;
+}
+#services .textbox p:hover {
+  cursor: initial;
 }
 @media screen and (max-width: 992px) {
   #services {
@@ -577,7 +589,8 @@ body {
 #contactus .btn {
   width: 271px;
   height: 70px;
-  background-color: #ffc800;
+  background-color: #d0ac2c;
+  opacity: 0.6;
 }
 #contactus .btn h3 {
   font-size: 25px;
