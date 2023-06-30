@@ -528,7 +528,7 @@ body {
 }
 
 #logo {
-  padding: 100px 0 50px;
+  padding: 55px 0 50px;
   display: flex;
   align-items: center;
 }
@@ -548,13 +548,11 @@ body {
 }
 
 #contactus {
-  padding: 35px 0 0;
+  padding: 100px 0;
   background-image: url("A.Assets/map-image.png");
   background-color: #212529;
-  height: 690px;
 }
 #contactus .textbox {
-  margin: 50px 0 0;
   text-align: center;
 }
 #contactus .textbox h1 {
@@ -569,7 +567,7 @@ body {
   font-size: 20px;
 }
 #contactus .box {
-  padding-top: 80px;
+  padding-top: 30px;
 }
 #contactus .box input {
   width: 100%;
@@ -589,7 +587,7 @@ body {
 #contactus .btn {
   width: 271px;
   height: 70px;
-  background-color: #d0ac2c;
+  background-color: #ffc800;
   opacity: 0.6;
 }
 #contactus .btn h3 {
@@ -601,6 +599,9 @@ body {
   cursor: pointer;
 }
 @media screen and (max-width: 1024px) {
+  #contactus {
+    padding: 90px 0 100px;
+  }
   #contactus .box {
     padding-top: 60px;
   }
@@ -611,6 +612,7 @@ body {
   #contactus .area {
     display: flex;
     font-size: 17px;
+    height: 330px;
   }
   #contactus .area textarea {
     color: #a1a1a1;
@@ -646,9 +648,12 @@ body {
   }
 }
 @media screen and (max-width: 768px) {
+  #contactus {
+    padding: 60px 0 100px;
+  }
   #contactus .textbox h1 {
     font-size: 45px;
-    margin: 40px 0 15px;
+    margin: 10px 0 15px;
   }
   #contactus .textbox h4 {
     font-size: 20px;
@@ -677,9 +682,6 @@ body {
   }
 }
 @media screen and (max-width: 576px) {
-  #contactus {
-    height: 750px;
-  }
   #contactus .textbox {
     margin: 30px 0 0;
   }
