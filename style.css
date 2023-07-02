@@ -529,8 +529,6 @@ body {
 
 #logo {
   padding: 55px 0 50px;
-  display: flex;
-  align-items: center;
 }
 #logo .imgbox {
   width: 170px;
@@ -540,11 +538,6 @@ body {
 }
 #logo .ibm {
   width: 110px;
-}
-@media screen and (max-width: 576px) {
-  #logo .ibm {
-    margin-top: 10px;
-  }
 }
 
 #contactus {
@@ -606,7 +599,7 @@ body {
     padding-top: 60px;
   }
   #contactus .box input {
-    width: 465px;
+    width: 100%;
     height: 70px;
   }
   #contactus .area {
@@ -632,7 +625,7 @@ body {
     padding-top: 60px;
   }
   #contactus .box input {
-    width: 465px;
+    width: 100%;
     height: 70px;
   }
   #contactus .area {
@@ -662,11 +655,12 @@ body {
     padding-top: 50px;
   }
   #contactus .box input {
-    width: 330px;
+    width: 100%;
     border-radius: 8px;
   }
   #contactus .area {
     padding-top: 50px;
+    height: 330px;
   }
   #contactus .area textarea {
     max-height: 270px;
@@ -702,9 +696,6 @@ body {
   }
   #contactus .area {
     padding-top: 6px;
-  }
-  #contactus .area textarea {
-    max-height: 170px;
   }
   #contactus .btn {
     width: 215px;
