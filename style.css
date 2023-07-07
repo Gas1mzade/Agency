@@ -27,22 +27,23 @@ body {
 #welcome .box h2 {
   color: white;
   font-size: 90px;
-  padding-bottom: 39px;
+  padding-bottom: 75px;
   font-weight: 700;
 }
 #welcome .box h1, #welcome .box h2 {
   cursor: initial;
 }
 #welcome .box a {
-  padding: 15px 50px;
+  padding: 20px 60px;
   background-color: #ffc800;
   border-radius: 6px;
-  color: #fff;
-  font-size: 23px;
-  font-weight: 700;
+  color: white;
+  font-size: 27px;
+  font-weight: 500;
 }
 #welcome .box a:hover {
   background-color: #edc200;
+  cursor: pointer;
 }
 @media screen and (max-width: 1024px) {
   #welcome {
@@ -776,17 +777,17 @@ header nav .icon i {
   }
   header nav .icon {
     display: flex;
-    margin-right: 40px;
+    margin-right: 5px;
     border: 2px solid rgba(255, 255, 255, 0.1019607843);
     padding: 10px;
     border-radius: 5px;
   }
   header nav .icon h1 {
-    font-size: 15px;
+    font-size: 13px;
     padding: 2px 5px 0 0;
   }
   header nav .icon i {
-    font-size: 15px;
+    font-size: 13px;
     padding-top: 2px;
   }
 }
