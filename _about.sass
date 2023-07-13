@@ -109,11 +109,13 @@
             h3
                 font-size: 20px
         .box
+            width: 100%
             flex-direction: row-reverse
             justify-content: flex-end
             .textbox
                 text-align: start
-                width: 35%
+                width: 100%
+                margin: 0 0 0 15px
                 h2
                     font-size: 27px
                 p
@@ -121,10 +123,9 @@
                     color: #6c757d
                     line-height: 1.3
             .imgbox
-                width: 80px
-                height: 80px
+                width: 90px
+                height: 72px
                 border-radius: 100%
-                margin: 0 0 0 20px
         .different
             flex-direction: row
             display: flex
@@ -138,6 +139,20 @@
         .yellow
             width: 80px
             height: 80px
-            padding: 10px
+            padding: 9px
+            margin-left: 20px
+            line-height: 1.2
             h4
-                font-size: 15px
+                font-size: 13px
+
+    @media screen and ( max-width: 320px )
+        .box
+            .textbox
+                width: 50%
+        .different
+            width: 100%
+        .yellow
+            width: 80px
+            height: 80px
+            padding: 10px
+            margin-left: 10px
