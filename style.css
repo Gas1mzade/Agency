@@ -190,7 +190,7 @@ body {
     font-weight: 700;
   }
   #services .textbox p {
-    font-size: 19px;
+    font-size: 20px;
     line-height: 1.5;
     margin-bottom: 20px;
   }
@@ -328,11 +328,8 @@ body {
 #about .different .textbox {
   text-align: start;
 }
-#about .last {
-  display: flex;
-  justify-content: center;
-}
 #about .yellow {
+  margin: auto;
   width: 150px;
   height: 150px;
   background-color: #ffc800;
@@ -399,6 +396,7 @@ body {
     margin: 0 0 0 20px;
   }
   #about .yellow {
+    margin: auto;
     width: 130px;
     height: 130px;
     padding: 19px;
@@ -446,11 +444,9 @@ body {
   #about .different .textbox {
     text-align: start;
   }
-  #about .last {
-    display: flex;
-    justify-content: start;
-  }
   #about .yellow {
+    display: flex;
+    justify-content: flex-start;
     width: 80px;
     height: 80px;
     padding: 9px;
@@ -464,6 +460,11 @@ body {
 @media screen and (max-width: 320px) {
   #about .box .textbox {
     width: 50%;
+  }
+  #about .box .imgbox {
+    width: 77px;
+    height: 72px;
+    margin: 0;
   }
   #about .different {
     width: 100%;
@@ -685,6 +686,7 @@ body {
   }
   #contactus .area textarea {
     max-height: 270px;
+    padding: 15px;
   }
   #contactus .btn {
     width: 250px;
