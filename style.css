@@ -335,7 +335,7 @@ body {
   background-color: #ffc800;
   border-radius: 100%;
   padding: 27px;
-  border: 8px solid #ffe8e8;
+  border: 6px solid #e4dbdb;
 }
 #about .yellow h4 {
   font-size: 25px;
@@ -449,8 +449,8 @@ body {
     justify-content: flex-start;
     width: 80px;
     height: 80px;
-    padding: 9px;
-    margin-left: 20px;
+    padding: 10px;
+    margin-left: 15px;
     line-height: 1.2;
   }
   #about .yellow h4 {
@@ -463,16 +463,16 @@ body {
   }
   #about .box .imgbox {
     width: 77px;
-    height: 72px;
+    height: 77px;
     margin: 0;
   }
   #about .different {
     width: 100%;
   }
   #about .yellow {
-    width: 80px;
-    height: 80px;
-    padding: 10px;
+    width: 70px;
+    height: 70px;
+    padding: 6px;
     margin-left: 10px;
   }
 }
