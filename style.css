@@ -561,6 +561,12 @@ body {
 #logo .ibm {
   width: 110px;
 }
+#logo img {
+  cursor: initial;
+}
+#logo img:hover {
+  cursor: pointer;
+}
 
 #contactus {
   padding: 100px 0;
