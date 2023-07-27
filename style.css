@@ -7,6 +7,10 @@ body {
   overflow: hidden;
 }
 
+img {
+  width: 100%;
+}
+
 #welcome {
   background-image: url("A.Assets/header-bg.jpg");
   background-color: #cccccc;
@@ -212,9 +216,6 @@ body {
 #portfolio .imgbox {
   position: relative;
 }
-#portfolio .imgbox img {
-  width: 100%;
-}
 #portfolio .imgbox .icon {
   width: 100%;
   position: absolute;
@@ -281,9 +282,6 @@ body {
 
 #about {
   padding: 100px 0;
-}
-#about img {
-  width: 100%;
 }
 #about .textbox h1 {
   font-size: 50px;
@@ -481,9 +479,6 @@ body {
   padding: 100px 0;
   background-color: #f7f7f7;
 }
-#ourteam img {
-  width: 100%;
-}
 #ourteam .box h1 {
   font-weight: 700;
   font-size: 50px;
@@ -516,6 +511,7 @@ body {
   padding: 13px;
   font-size: 15px;
   width: 38px;
+  height: 38px;
   background-color: #212529;
   color: white;
   border-radius: 100%;
