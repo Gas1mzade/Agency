@@ -817,6 +817,9 @@ header nav .icon i {
   header .imgbox {
     width: 130px;
   }
+  header nav {
+    margin-right: 30px;
+  }
   header nav a {
     display: none;
   }
@@ -833,6 +836,11 @@ header nav .icon i {
   header nav .icon i {
     font-size: 13px;
     padding-top: 2px;
+  }
+}
+@media screen and (max-width: 320px) {
+  header nav {
+    margin-right: 20px;
   }
 }
 
