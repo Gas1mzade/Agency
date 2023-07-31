@@ -6,10 +6,8 @@ header
     z-index: 1
     .imgbox
         width: 135px
-        margin-left: 100px
     nav
         display: flex
-        margin-right: 50px
         a
             color: #ffff
             font-size: 20px
@@ -18,7 +16,7 @@ header
             &:hover
                 cursor: pointer
                 color: #edc01c
-        .icon
+        .box
             display: none
             border: 2px solid #ffffff1a
             padding: 15px
@@ -28,11 +26,12 @@ header
                 font-weight: 700
                 color: #ffffff8c
                 padding-right: 10px
-            i
-                font-size: 20px
-                align-items: center
-                padding-top: 2px
-                color: #ffffff8c
+            .icon
+                i
+                    font-size: 20px
+                    align-items: center
+                    padding-top: 2px
+                    color: #ffffff8c
 
     @media screen and ( max-width: 1024px )
         .imgbox
@@ -61,7 +60,7 @@ header
             margin-right: 30px
             a
                 display: none
-            .icon
+            .box
                 display: flex
                 border: 2px solid #ffffff1a
                 padding: 10px 15px
@@ -69,9 +68,10 @@ header
                 h1
                     font-size: 15px
                     padding: 2px 5px 0 0
-                i
-                    font-size: 13px
-                    padding-top: 2px
+                .icon
+                    i
+                        font-size: 13px
+                        padding-top: 2px
 
     @media screen and ( max-width: 320px )
         nav

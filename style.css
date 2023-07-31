@@ -6,8 +6,7 @@ body {
 .imgbox {
   overflow: hidden;
 }
-
-img {
+.imgbox img {
   width: 100%;
 }
 
@@ -176,6 +175,7 @@ img {
   #services .textbox p {
     font-size: 19px;
     line-height: 1.5;
+    margin-bottom: 15px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -753,11 +753,9 @@ header {
 }
 header .imgbox {
   width: 135px;
-  margin-left: 100px;
 }
 header nav {
   display: flex;
-  margin-right: 50px;
 }
 header nav a {
   color: white;
@@ -769,19 +767,19 @@ header nav a:hover {
   cursor: pointer;
   color: #edc01c;
 }
-header nav .icon {
+header nav .box {
   display: none;
   border: 2px solid rgba(255, 255, 255, 0.1019607843);
   padding: 15px;
   border-radius: 5px;
 }
-header nav .icon h1 {
+header nav .box h1 {
   font-size: 25px;
   font-weight: 700;
   color: rgba(255, 255, 255, 0.5490196078);
   padding-right: 10px;
 }
-header nav .icon i {
+header nav .box .icon i {
   font-size: 20px;
   align-items: center;
   padding-top: 2px;
@@ -823,17 +821,17 @@ header nav .icon i {
   header nav a {
     display: none;
   }
-  header nav .icon {
+  header nav .box {
     display: flex;
     border: 2px solid rgba(255, 255, 255, 0.1019607843);
     padding: 10px 15px;
     border-radius: 5px;
   }
-  header nav .icon h1 {
+  header nav .box h1 {
     font-size: 15px;
     padding: 2px 5px 0 0;
   }
-  header nav .icon i {
+  header nav .box .icon i {
     font-size: 13px;
     padding-top: 2px;
   }
